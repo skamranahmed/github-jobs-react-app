@@ -40,6 +40,7 @@ const useFtechJobs = (params, page) => {
   useEffect(() => {
     const cancelToken = axios.CancelToken.source();
     dispatch({ type: ACTIONS.MAKE_REQUEST });
+    console.log(page);
     axios
       .get(BASE_URL, {
         cancelToken: cancelToken.token,
