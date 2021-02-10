@@ -1,8 +1,13 @@
 # Github Jobs App!
-## Introduction
-A react app  which displays the jobs listed on the [Github Jobs](https://jobs.github.com/) website by consuming the [Github Jobs API](https://jobs.github.com/api).
 
-##  CORS Issue
+## Introduction
+
+A react app which displays the jobs listed on the [Github Jobs](https://jobs.github.com/) website by consuming the [Github Jobs API](https://jobs.github.com/api).
+
+[Live Demo](https://skamranahmed.github.io/github-jobs-react-app/)
+
+## CORS Issue
+
 You might face a CORS issue after setting up your local development environment.
 
 ### How to fix?
@@ -11,7 +16,7 @@ You might face a CORS issue after setting up your local development environment.
 
 In the project directory, you can run:
 
-#### `npm start` 
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
